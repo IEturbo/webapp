@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-sm  navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img class="logo" src="https://socialfrontier.com/images/white_logo.png" alt="Hostio">
+    </a>
+    <button class="navbar-toggler" [class.collapsed]="!isShow" type="button" (click)="showIcon()" data-toggle="collapse" data-target="#collapseNavbar">
+    <span class="oi oi-menu"></span>
+  </button>
+    <div class="navbar-collapse collapse" style="margin-left:25%;font-size: 2rem;" [class.show]="isShow" id="collapseNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>

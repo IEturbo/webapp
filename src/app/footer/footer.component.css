@@ -1,0 +1,15 @@
+#footer {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.logo-mini {
+    width: 10em;
+    margin-top: -2em;
+}
+
+.footer-nav {
+    font-size: 16px;
+}
